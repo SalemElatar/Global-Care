@@ -8,12 +8,22 @@
             disable: 'mobile'
         });
 
-        // == Search Bar== //
-        if ($('.search-icon').length) {
-            $('.search-icon').on('click', function () {
-                $('.search-form').toggleClass('show');
-            });
-        }
+
+        //  == Fixed Navbar== //
+        var myNav = document.getElementById('header');
+        window.onscroll = function () { 
+            "use strict";
+            if (document.documentElement.scrollTop >= 200) {
+                myNav.addClass("nav-colored");
+                myNav.removeClass("nav-transparent");
+            } 
+            else {
+                myNav.addClass("nav-transparent");
+                myNav.removeClass("nav-colored");
+            }
+        };
+        
+        //  == Fixed Navbar== //
 
         // == Hero Slider== //
         if ($('.hero-slider').length) {

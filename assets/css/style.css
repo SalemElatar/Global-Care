@@ -44,6 +44,9 @@ header::after {
   bottom: -20px;
 }
 
+.nav-colored { background-color:#000; }
+.nav-transparent { background-color:transparent;}
+
 .nav-link {
   font-family: "Rajdhani", sans-serif;
   text-transform: uppercase;
