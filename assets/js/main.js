@@ -13,13 +13,15 @@
         var myNav = $('header');
         window.onscroll = function () { 
             "use strict";
-            if ($(window).scrollTop() >= 200) {
+            if ($(window).scrollTop() >= 300) {
                 myNav.addClass("nav-colored");
                 myNav.removeClass("nav-transparent");
+                $('header .top-header').css({'cssText': 'display: none !important'});
             } 
             else {
                 myNav.addClass("nav-transparent");
                 myNav.removeClass("nav-colored");
+                $('header .top-header').fadeIn(200);
             }
         };
         

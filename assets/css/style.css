@@ -1,8 +1,8 @@
 /*------------------------------------------------------------------
  * Multipurpose: Free Template by FreeHTML5.co
- * Author: https://freehtml5.co
- * Facebook: https://facebook.com/fh5co
- * Twitter: https://twitter.com/fh5co
+ * Author: 
+ * Facebook: 
+ * Twitter: 
  -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of styles content]
@@ -56,12 +56,21 @@ header::after {
   bottom: -20px;
 }
 
+header .top-header{
+  transition: all 1s ease-in-out;
+}
+
 .nav-colored { background-color:#000; }
 .nav-transparent { background-color:rgba(0, 0, 0, 0.65);}
 
-.nav-link {
+header .nav-link {
   font-family: "Rajdhani", sans-serif;
   text-transform: uppercase;
+
+}
+
+header .nav-item:last-child{
+  margin-right: 0;
 }
 
 .contact {
@@ -74,7 +83,7 @@ header::after {
 
 .contact i {
   color: #87cabb;
-  margin-right: 10px;
+  margin-right: 9px;
 }
 
 .contact a:hover {
@@ -734,6 +743,18 @@ footer {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 45px;
+  position: relative;
+  padding: 10px 0;
+}
+
+.single-widget .widget-tiltle::after{
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #87cabb;
+  bottom: 0;
+  left: 0;
+  width: 7%;
 }
 
 .single-widget i {
@@ -882,12 +903,12 @@ span {
 ------------------------------------*/
 .foot-note {
   padding: 35px 0;
-  background-color: #87cabb;
-  color: #26264b;
+  background-color: #000;
+  color: #87cabb;
 }
 
 .foot-note a {
-  color: #000;
+  color: #87cabb;
 }
 
 .foot-note a:last-child {
