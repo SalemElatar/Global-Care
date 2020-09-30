@@ -21,6 +21,13 @@
 12 - Footer Widgets
 13 - Foot Note
 --------------------------------------------------------------------*/
+
+/*ScrollBar*/
+::-webkit-scrollbar {width: 9px;}
+::-webkit-scrollbar-track {background: #394362;}
+::-webkit-scrollbar-thumb {background: #87cabb;}
+::-webkit-scrollbar-thumb:hover {background:#abe9db ;}
+
 /*-----------------------------------
     1 - Header
 ------------------------------------*/
@@ -730,7 +737,7 @@ footer {
 }
 
 .single-widget i {
-  color: #ee1515;
+  color: #87cabb;
 }
 
 .single-widget h6 {
@@ -807,7 +814,7 @@ span {
 .tags-widget a:hover {
   text-decoration: none;
   color: #26264b;
-  background-color: #ee1515;
+  background-color: #87cabb;
 }
 
 .subscribe-widget form {
@@ -867,7 +874,7 @@ span {
 }
 
 .subscribe-widget .social-nav a:hover {
-  background-color: #ee1515;
+  background-color: #87cabb;
 }
 
 /*-----------------------------------
@@ -875,12 +882,12 @@ span {
 ------------------------------------*/
 .foot-note {
   padding: 35px 0;
-  background-color: #ee1515;
+  background-color: #87cabb;
   color: #26264b;
 }
 
 .foot-note a {
-  color: #26264b;
+  color: #000;
 }
 
 .foot-note a:last-child {
