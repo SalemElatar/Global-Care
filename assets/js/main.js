@@ -10,10 +10,10 @@
 
 
         //  == Fixed Navbar== //
-        var myNav = document.getElementById('header');
+        var myNav = $('header');
         window.onscroll = function () { 
             "use strict";
-            if (document.documentElement.scrollTop >= 200) {
+            if ($(window).scrollTop() >= 200) {
                 myNav.addClass("nav-colored");
                 myNav.removeClass("nav-transparent");
             } 
