@@ -10,14 +10,15 @@
 
 
         //  == Fixed Navbar== //
+        $('.contactPage header').css({'cssText': 'background-color: #000 !important'});
         var myNav = $('header');
         window.onscroll = function () { 
             "use strict";
-            if ($(window).scrollTop() >= 300) {
+            if ($(window).scrollTop() >= 200) {
                 myNav.addClass("nav-colored");
                 myNav.removeClass("nav-transparent");
                 $('header .top-header').css({'cssText': 'display: none !important'});
-            } 
+            }
             else {
                 myNav.addClass("nav-transparent");
                 myNav.removeClass("nav-colored");
