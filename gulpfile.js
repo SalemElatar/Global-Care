@@ -20,7 +20,6 @@ gulp.task('html', function () {
 });
 
 
-
 //CSS Task
 gulp.task('css', function () {
   "use strict";
@@ -33,8 +32,6 @@ gulp.task('css', function () {
             .pipe(gulp.dest('dist/css'))
             .pipe(livereload());
 });
-
-//
 
 
 //JS Task

@@ -64,9 +64,10 @@
     height: 4px;
     background-color: #87cabb;
     position: absolute;
-    left: 50%;
+    left: 40%;
     bottom: 0;
     transition: all 0.35s ease;
+    border-color: #87cabb;
   }
   .navbar-collapse .nav-link:hover::after {
     width: 100%;

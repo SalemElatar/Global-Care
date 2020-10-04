@@ -1,0 +1,59 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    // Document title
+    title Global Care - Home
+    // Stylesheets & Fonts
+    include pug/layout/styles
+
+  body
+    .qapage
+      // Loader Start
+      .css-loader
+        .loader-inner.line-scale.d-flex.align-items-center.justify-content-center
+      // Loader End
+      
+      // Header Start
+      include pug/layout/header
+      // Header End
+      
+      // Q&A Start
+      .qa
+        .container
+          ul
+            li How are company cleaning prices determined?
+              p There are three factors that affect the cleaning price of companies and they are The number of working hours required of cleaners per day.Number of cleaners required. According to the required cleaning materials and tools.
+            li How do you guarantee the safety of the Helper cleaners?
+              p Helper company performs a fish, simulation, and health check for cleaning workers before contracting to ensure public safety. Helper collects all the cleaning workers' data, so if there is any problem, Helper can solve it immediately. Helper Company trained all cleaning workers professionally and always urged them to be honest and sincere.
+            li What precautionary measures are taken while providing your services in light of the spread of the Coronavirus?
+              p Each cleaning worker has a medical mask and gloves to wear during work, and we regularly check them to ensure that they are healthy and free of any disease.
+            li Do you provide cleaning tools and equipment?
+              p Yes .. We bring all the best quality tools and materials with us, and in the event that any of the materials or tools are not available in the market, the agreed brand is replaced by an available brand, provided that it is of the same grade and has the same basic brand characteristics and specifications.
+            li Are cleaning materials safe?
+              p The company uses the finest materials and conforms to the specifications of the Ministry of Health, and the materials imported from abroad are in conformity with the World Health Organization.
+            li What if I want to change the sanitation factor that I send?
+              p In the event that the client requests a change or replacement of any factor, this shall be implemented within 48 hours.
+            li What tools are used for cleaning?
+              p We use special tools for every material present on the job site such as glass, wood, carpets, etc., and we use hygiene tools and products of the finest types on the market.
+            li Do you have equipment for cleaning the sofas and porcelain?
+              p We have equipment for cleaning the lounge, but no equipment for cleaning porcelain because what is needed is only polishing and this is what the cleaners do themselves.
+            li How do you sterilize and with what materials?
+              p We use VirkonS, a German product, and we sterilize it in more than one stage to make sure that the sterilization process is completely completed.
+            li Do you provide certification of sterilization or hygiene?
+              p We can provide this but it is not approved by the government agency.
+            li Do you have a home cleaning service?
+              p Yes, but the service is now discontinued.
+            li Can you send a cleaner every day to clean the house?
+              p Yes, but the service is now discontinued.
+            li Do you have any other questions .. You can leave them here and we will answer them
+      // Q&A End
+
+
+
+      // Start Scripts
+      include pug/layout/scripts
+      // Scripts End
+

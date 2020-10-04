@@ -1,0 +1,33 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    // Document title
+    title Global Care - Home
+    // Stylesheets & Fonts
+    include pug/layout/styles
+
+  body
+    .home
+      // Loader Start
+      .css-loader
+        .loader-inner.line-scale.d-flex.align-items-center.justify-content-center
+      // Loader End
+      
+      // Header Start
+      include pug/layout/header
+      // Header End
+
+      // Featured Start
+      include pug/componentes/featured
+      // Featured End
+
+      // Footer Start
+      include pug/layout/footer
+      // Footer End
+
+      // Start Scripts
+      include pug/layout/scripts
+      // Scripts End
