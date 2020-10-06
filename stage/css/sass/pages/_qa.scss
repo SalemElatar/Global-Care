@@ -1,0 +1,31 @@
+/*Q&A Page*/
+.qapage{
+    .qa{
+      padding: 200px 0;
+      li{
+        font-size: 1.3rem;
+        font-weight: bolder;
+        color: #87cabb;
+        list-style: initial;
+        margin-bottom: 30px;
+        p{
+          color: #000;
+          font-weight: 200;
+          font-size: 1rem;
+        }
+      }
+        .otherq{
+          margin-top: 60px;
+          color: #000;
+          font-size: 30px;
+          a{
+              color: $main_color;
+              font-weight: bold;
+              font-size: 25px;
+              &:hover{
+                color: $light-main_color;
+              }
+          }
+      }
+    }
+  }

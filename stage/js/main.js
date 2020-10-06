@@ -9,6 +9,8 @@
         });
 
 
+
+
         //  == Fixed Navbar== //
         $('.contactPage header').css({'cssText': 'background-color: #000 !important'});
         var myNav = $('header');
@@ -25,7 +27,6 @@
                 $('header .top-header').fadeIn(200);
             }
         };
-        
         //  == Fixed Navbar== //
 
         // == Hero Slider== //
