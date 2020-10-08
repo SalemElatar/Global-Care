@@ -6,6 +6,7 @@
 .title {
     font-weight: 700;
     text-transform: uppercase;
+    color: $black;
   
     h6 {
       letter-spacing: 4px;
@@ -18,8 +19,15 @@
   }
   
   .services {
-    padding: 80px 0 50px;
-  
+    padding: 80px 0 100px;
+    a {
+      &:hover{
+        color: $main_color;
+      }
+      img {
+      width: 100px;
+    }
+  }
     .title {
       margin-bottom: 20px;
     }

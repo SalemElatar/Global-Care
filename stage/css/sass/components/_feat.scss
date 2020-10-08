@@ -3,9 +3,11 @@
 ------------------------------------*/
 
 .featured {
-    padding: 300px 0 180px;
+    padding: 360px 0 180px;
     background-color: #fafafa;
-
+    .title{
+      color: $black;
+    }
     a.btn{
         background-color: $main_color;
         color: #fff;

@@ -12,7 +12,7 @@
 
 
         //  == Fixed Navbar== //
-        $('.contactPage header').css({'cssText': 'background-color: #000 !important'});
+        $('.non_home header').css({'cssText': 'background-color: #000 !important'});
         var myNav = $('header');
         window.onscroll = function () { 
             "use strict";

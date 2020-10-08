@@ -1,0 +1,89 @@
+/*-----------------------------------
+    1 - Trust
+------------------------------------*/
+
+.trust {
+    padding: 75px 0;
+    background-color: #26264b;
+    color: #ddd;
+    position: relative;
+    p{
+        color:#fff;
+    }
+  
+    .title {
+      margin-bottom: 46px;
+    }
+  
+    h1 {
+      color: #fff;
+    }
+  
+    h5 {
+      font-size: 24px;
+      color: #fefefe;
+      margin: 28px 0 12px;
+    }
+  
+    ul {
+      color: #fff;
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+    }
+  
+    li {
+      margin-bottom: 15px;
+    }
+  
+    .gallery img {
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      height: 100%;
+    }
+  
+    .gal-img {
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+  
+      i {
+        font-size: 72px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        z-index: 2;
+      }
+  
+      &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+      }
+  
+      &:hover {
+        cursor: pointer;
+  
+        i, &::after {
+          opacity: 1;
+        }
+      }
+    }
+  
+    .gal-img3 {
+      top: -50%;
+      left: 50%;
+    }
+  }
+  

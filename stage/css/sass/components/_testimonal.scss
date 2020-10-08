@@ -10,6 +10,10 @@
     padding: 95px 0 85px;
     color: #fff;
     border-bottom: 1px solid $main_color;
+
+    a{
+      color:#000;
+    }
   
     .test-img {
       width: 90px;
@@ -40,6 +44,7 @@
     p {
       font-size: 17px;
       line-height: 27px;
+      color: #fff;
     }
   }
   

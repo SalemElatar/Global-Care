@@ -23,50 +23,23 @@ html(lang='en')
       // Featured Start
       include pug/componentes/featured
       // Featured End
-
       
-      // Testimonial and Clients Start
-      include pug/componentes/testimonial
-      // Testimonial and Clients End
 
       // Services Start
       include pug/componentes/services
       // Services End
+
+      // Testimonial and Clients Start
+      include pug/componentes/testimonial
+      // Testimonial and Clients End
 
       // Recent Posts Start
       include pug/componentes/history
       // Recent Posts End
 
       // Trust Start
-      section.trust
-        .container
-          .row
-            .offset-xl-1.col-xl-6(data-aos='fade-right' data-aos-delay='200' data-aos-duration='800')
-              .title
-                h6.title-primary about Tamplate
-                h1 a rich featured, epic & premium work.
-              p
-                | Suspendisse facilisis commodo lobortis. Nullam mollis lobortis ex vel faucibus. Proin nec viverra
-                | turpis. Nulla eget justo scelerisque, pretium purus vel, congue libero. Suspendisse potenti.
-              h5 Web Design & Development
-              ul.list-unstyled
-                li Web Content
-                li Website other
-                li Fashion
-                li Moblie & Tablette
-            .col-xl-5.gallery
-              #lightgallery.row.no-gutters.h-100
-                a.w-50.h-100.gal-img(href='https://lorempixel.com/600/400/' data-aos='fade-up' data-aos-delay='200' data-aos-duration='400')
-                  img.img-fluid(src='images/gallery1.jpg' alt='Gallery Image')
-                  i.fa.fa-caret-right
-                a.w-50.h-50.gal-img(href='https://lorempixel.com/600/400/' data-aos='fade-up' data-aos-delay='400' data-aos-duration='600')
-                  img.img-fluid(src='images/gallery2.jpg' alt='Gallery Image')
-                  i.fa.fa-caret-right
-                a.w-50.h-50.gal-img.gal-img3(href='https://lorempixel.com/600/400/' data-aos='fade-up' data-aos-delay='0' data-aos-duration='600')
-                  img.img-fluid(src='images/gallery3.jpg' alt='Gallery Image')
-                  i.fa.fa-caret-right
+      include pug/componentes/trust
       // Trust End
-
       
       // Footer Start
       include pug/layout/footer
