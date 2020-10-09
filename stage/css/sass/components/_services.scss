@@ -19,25 +19,11 @@
   }
   
   .services {
-    padding: 80px 0 100px;
-    .lightbg{
-      position: absolute;
-      width: 85px;
-      background-color: #8cccbe;
-      height: 78px;
-      border-radius: 50%;
-      z-index: 0;
-      top: 5px;
-      left: 10px;
-      display: none;
-      transition:all .5s ease-in-out;
-    }
+    padding: 40px 0 100px;
+
     a {
       &:hover{
         color: $main_color;
-        .lightbg{
-          display: block;
-        }
       }
       img {
       width: 100px;

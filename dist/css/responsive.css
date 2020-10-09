@@ -1,6 +1,27 @@
 /*-----------------------------------
     Small devices (landscape phones, 576px and up)
 ------------------------------------*/
+@media (max-width: 576px) {
+  .featured{
+    padding: 150px 0;
+  }
+  .featured a.btn{
+    margin-top: 0;
+  }
+  .nav-item.dropdown .nav-link::after{
+    display: none;
+  }
+  .navbar-nav .dropdown-menu{
+    background-color: #000;
+  }
+  .navbar-nav .dropdown-menu .dropdown-item{
+    color: #fff;
+  }
+}
+
+
+
+
 @media (min-width: 576px) {
   .top-header {
     padding: 25px 0 15px;
@@ -22,8 +43,11 @@
   .nav-item.dropdown .nav-link::after{
     display: none;
   }
-  .featured{
+  .non_home .featured{
     padding: 200px 0 180px;
+  }
+  .featured{
+    padding: 200px 0;
   }
   .featured .btn{
     margin-top: 0;
@@ -78,6 +102,14 @@
   }
   .navbar-collapse .nav-link:hover::before {
     opacity: 1;
+  }
+
+  .non_home .featured{
+    padding: 200px 0 180px;
+  }
+
+  .featured{
+    padding-top: 450px;
   }
 
   .group {

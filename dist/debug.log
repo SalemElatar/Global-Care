@@ -19,3 +19,19 @@
 [1009/040401.666:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1009/040828.492:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1009/040902.729:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1009/213354.854:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1009/213405.206:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1009/213424.712:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1009/213454.273:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1009/213458.559:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1009/213510.023:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1009/213533.359:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1009/213606.106:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1009/213638.556:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1009/213815.236:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1009/213834.957:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1009/213902.955:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1009/213920.616:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1009/214920.617:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1009/214920.617:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Salem\AppData\Local\Google\Chrome\User Data\Crashpad\reports\c4c6f8a7-c2c4-43cf-8363-15a262962330.dmp: The system cannot find the file specified. (0x2)
+[1009/214920.618:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
